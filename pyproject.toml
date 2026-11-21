@@ -1,0 +1,32 @@
+[project]
+name = "diplomadomod1"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "hdbscan>=0.8.44",
+    "ipykernel>=7.3.0",
+    "keras>=3.15.1",
+    "keras-nightly>=3.16.0.dev2026111303",
+    "matplotlib>=3.11.1",
+    "numpy>=2.5.2",
+    "opencv-python>=5.1.0.95",
+    "pandas==3.1.1",
+    "pandas-stubs~=3.1.0",
+    "pillow>=13.0.0",
+    "pymupdf>=2.0",
+    "pyqt6>=6.11.0",
+    "pyrefly>=0.60.0",
+    "scikeras>=0.13.0",
+    "scikit-learn>=1.9.1",
+    "scipy>=1.18.1",
+    "scipy-stubs>=1.18.1.1",
+    "seaborn>=0.13.2",
+    "tensorflow>=2.22.0rc0",
+    "textual>=8.2.8",
+    "textual-dev>=1.8.0",
+    "torch>=2.15.0",
+    "wordcloud>=1.9.6",
+]
+
+#[tool.uv]
+#no-binary-package = ["numpy", "scikit-learn", "seaborn", "pandas", "pandas-stubs", "matplotlib"]
